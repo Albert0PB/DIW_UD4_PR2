@@ -1,0 +1,21 @@
+.banner {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.banner img {
+  width: 100%;
+  filter: brightness(0.4);
+}
+
+.banner h1 {
+  font-family: "Inria Serif";
+  position: absolute;
+  align-self: center;
+  color: white;
+  font-family: "Inria Serif";
+  font-size: 72px;
+  text-align: center;
+}
