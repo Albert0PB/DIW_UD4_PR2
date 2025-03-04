@@ -1,0 +1,109 @@
+body
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+article
+{
+    background-color: #1c5d8c;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+article > h2, article > h3, article > p, article > a
+{
+    color: white;
+}
+
+#newsletter-wrapper
+{
+    display: flex;
+    justify-content: space-around   ;
+}
+
+#newsletter-wrapper > article
+{
+    width: 20%;
+}
+
+#about-us-section
+{
+    display: flex;
+}
+
+#about-us-section > img
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-right: 600px;
+}
+
+#about-us-article
+{
+    margin: 0;
+}
+
+#about-us-article > div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+}
+
+#soa-wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#soa-wrapper > article, form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#soa-article-first
+{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#soa-article-second
+{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#soa-article-calendar
+{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+footer
+{
+    display: flex;
+    background-color: #eedb1c;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+footer > div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > div > img
+{
+    height: 10vh;
+}
