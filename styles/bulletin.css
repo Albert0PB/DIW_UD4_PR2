@@ -1,0 +1,65 @@
+.bulletin {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+}
+
+.bulletin h2 {
+  margin: 3em 6%;
+  font-size: 21px;
+}
+
+.bulletin div {
+  margin: 0px 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bulletin article {
+  background-color: #1c5e8c;
+  padding: 20px;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+  width: 25%;
+  height: 12em;
+  line-height: 1.5em;
+}
+
+.bulletin h3 {
+  margin-bottom: 20px;
+}
+
+/* MEMORIAL */
+
+.mel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00497e;
+  margin: 10em 6%;
+
+  border-radius: 15px;
+
+  height: 45vh;
+}
+
+.mel article {
+  color: white;
+
+  width: 100%;
+  padding: 2em;
+
+  font-size: 15pt;
+
+  overflow: hidden;
+}
+
+.mel img {
+  z-index: 11;
+
+  width: 548px;
+  height: 439px;
+}
