@@ -4,12 +4,12 @@
 
 header {
   background-color: #eddc1c;
-  position: relative;
+  padding: 20px 6%;
   display: flex;
+  position: relative;
 }
 
 header img {
-  padding: 20px;
   margin: 0px 6%;
   width: 5em;
 }
@@ -18,11 +18,14 @@ nav {
   position: absolute;
   width: 50%;
   justify-content: space-between;
-  align-items: center;
   align-self: center;
   display: flex;
-  right: 0;
+  right: 6%;
   gap: 20px;
   margin-right: 6%;
   font-size: 20px;
+}
+
+nav:hover {
+  cursor: pointer;
 }

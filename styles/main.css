@@ -1,109 +1,86 @@
-body
-{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+* {
+  margin: 0;
 }
 
-article
-{
-    background-color: #1c5d8c;
-    margin: 5px;
-    border-radius: 25px;
+main {
+  margin: 0 6%;
 }
 
-article > h2, article > h3, article > p, article > a
-{
-    color: white;
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
-#newsletter-wrapper
-{
-    display: flex;
-    justify-content: space-around   ;
+article {
+  background-color: #1c5d8c;
+  margin: 5px;
+  border-radius: 25px;
 }
 
-#newsletter-wrapper > article
-{
-    width: 20%;
+article > h2,
+article > h3,
+article > p,
+article > a {
+  color: white;
 }
 
-#about-us-section
-{
-    display: flex;
+#newsletter-wrapper {
+  display: flex;
+  justify-content: space-around;
 }
 
-#about-us-section > img
-{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    margin-right: 600px;
+#newsletter-wrapper > article {
+  width: 20%;
 }
 
-#about-us-article
-{
-    margin: 0;
+#about-us-section {
+  display: flex;
 }
 
-#about-us-article > div
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin: 0;
+#about-us-section > img {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-right: 600px;
 }
 
-#soa-wrapper
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+#about-us-article {
+  margin: 0;
 }
 
-#soa-wrapper > article, form
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#about-us-article > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 0;
 }
 
-#soa-article-first
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+#soa-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-#soa-article-second
-{
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+#soa-wrapper > article,
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#soa-article-calendar
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
+#soa-article-first {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
 
-footer
-{
-    display: flex;
-    background-color: #eedb1c;
-    justify-content: space-around;
-    align-items: center;
-    height: 20vh;
+#soa-article-second {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
 }
 
-footer > div
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer > div > img
-{
-    height: 10vh;
+#soa-article-calendar {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
 }

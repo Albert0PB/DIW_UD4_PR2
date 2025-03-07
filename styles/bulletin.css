@@ -38,12 +38,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #00497e;
+  background-color: #1c5e8c;
   margin: 10em 6%;
-
   border-radius: 15px;
-
-  height: 45vh;
+  height: 25em;
+  position: relative;
 }
 
 .mel article {
@@ -53,13 +52,15 @@
   padding: 2em;
 
   font-size: 15pt;
-
-  overflow: hidden;
 }
 
 .mel img {
-  z-index: 11;
+  z-index: 1;
+  margin-left: -8px;
+  width: 50em;
+  height: 30em;
+}
 
-  width: 548px;
-  height: 439px;
+.mel h2 {
+  margin-bottom: 2em;
 }
