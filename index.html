@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="/styles/bulletin.css" />
     <link rel="stylesheet" href="/styles/main.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/soa.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/newsletters.css">
+    <link rel="stylesheet" href="/styles/decorator.css">
     <link
       href="https://fonts.googleapis.com/css?family=Inria Serif"
       rel="stylesheet"
@@ -27,11 +31,11 @@
     <header>
       <img src="/assets/img/Yale_School_of_Art.png" alt="Yale School Image" />
       <nav>
-        <p>Apply</p>
-        <p>Exhibitions</p>
-        <p>About us</p>
-        <p>News</p>
-        <p>Events</p>
+        <a>Apply</a>
+        <a>Exhibitions</p>
+        <a>About us</a>
+        <a>News</a>
+        <a>Events</a>
       </nav>
     </header>
 
@@ -80,6 +84,12 @@
             </p>
           </article>
         </div>
+
+        <div id="decorator">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </section>
 
       <section class="mel">
@@ -99,82 +109,91 @@
         </article>
       </section>
 
-      <!-- PARTE ALBERTO -->
-
-      <section>
-        <h2>Happening at SOA</h2>
-        <div id="soa-wrapper">
-          <article id="soa-article-first">
-            <p>
-              See the developing Spring 2025 Visiting Artist lecture schedule
-              here >
-            </p>
-          </article>
-          <article id="soa-article-second">
-            <p>Spring 2025 exhibitions + schedule here ></p>
-          </article>
-          <form id="soa-article-calendar">
-            <input type="date" name="calendar" id="calendar" />
+      <!-- SOA -->
+      <section class="soa">
+        <h2>Happening at SoA</h2>
+        <div class="soa-wrapper">
+          <div class="soa-articles">
+            <article>
+              <h3><a>See the developing Spring 2025 Visiting Artist lecture schedule here ></a></h3>
+            </article>
+            <article>
+              <h3><a>Spring 2025 exhibitions + schedule here ></a></h3>
+            </article>
+          </div>
+          <form>
+            <input type="date">
           </form>
         </div>
       </section>
-      <section id="about-us-section">
-        <article id="about-us-article">
+
+      <!-- ABOUT US -->
+      <section class="mel">
+        <article class="textoMel">
           <h2>About us</h2>
-          <div>
-            <p>
-              The School of Art is one of Yale’s Graduate & Professional Schools
-              conferring MFA degrees in Graphic Design, Painting/Printmaking,
-              Photography, and Sculpture; and offers undergraduate-level art
-              courses to Yale College students. Our website exists as an ongoing
-              collaborative experiment in digital publishing and information
-              sharing. It functions as a wiki—all members of the School of Art
-              community have the ability to add new, and edit most existing
-              content.
-            </p>
-          </div>
+          <p>
+            The School of Art is one of Yale’s Graduate & Professional Schools
+            conferring MFA degrees in Graphic Design, Painting/Printmaking,
+            Photography, and Sculpture; and offers undergraduate-level art
+            courses to Yale College students. Our website exists as an ongoing
+            collaborative experiment in digital publishing and information
+            sharing. It functions as a wiki—all members of the School of Art
+            community have the ability to add new, and edit most existing
+            content.
+          </p>
         </article>
-        <img src="assets/img/Rectangle 9.png" alt="" />
+        <img src="/assets/img/Rectangle 9.png" alt="Imagen sobre nosotros" />
       </section>
-      <section>
-        <h2>Calendars & Newsletters</h2>
-        <div id="newsletter-wrapper">
+
+      <!-- NEWSLETTERS -->
+      <section class="bulletin" id="newsletters">
+        <h2>Calendars and Newsletters</h2>
+        <div>
           <article>
-            <h3><a>NEW CALENDARS BEGINNING SUMMER 2020</a></h3>
+            <h3>NEW CALENDARS BEGINNING SUMMER 2020</h3>
             <p>
               <a>Public Calendar >></a>
+              <br />
               Containing those events open to the public.
             </p>
+
             <p>
               <a>School of Art in the World >></a>
+              <br />
               Containing events and exhibitions hosted by, led by, or featuring.
             </p>
+
             <p>
               <a>Community Calendar >></a>
+              <br />
               Containing those events open only to the SoA community.
             </p>
           </article>
+
           <article>
-            <h3><a>Get news from the Yale School of Art in your inbox</a></h3>
-            <p>We publish two newsletters during the academic year:</p>
+            <h3><a>Get new from the Yale School of Art in your inbox</a></h3>
             <p>
-              News From New Haven — A public monthly newsletter about news and
+              We publish two newsletters during the academic year:
+              <br />
+              <br />
+              News From New Haven — A public monthly newletter about news and
               events happening on campus.
-            </p>
-            <p>
-              Week at SoA — A weekly community- only email listing SoA events as
+              <br />
+              <br />
+              Week at SoA — A weekly community-only email listing SoA events as
               well as public and university events in New Haven.
             </p>
           </article>
+
           <article>
-            <h3>A message from Communications:</h3>
+            <h3>A message from Communications</h3>
             <p>
               All members of the SoA community are invited to edit the majority
               of the wiki however they like, but we ask that any non-curricular
               projects or initiatives that you would like to share be added to
               this section of the homepage. Students are also invited to reach
-              out to Assistant Director of Communications Lindsey Mancini if
-              they would like additional support
+              out to Assistant Director of Communications
+              <a>Lindsey Mancini</a> if they would like additional support.
             </p>
           </article>
         </div>
