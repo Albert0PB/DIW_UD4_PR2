@@ -2,36 +2,64 @@
   margin: 3em 6%;
 }
 
-.soa-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
-
-.soa-wrapper form {
-    margin-right: 20vw;
+.soa-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 .soa-articles {
-    margin-right: 20vw;
+  margin-right: 10vw;
 }
 
-.soa-articles article{
-    background-color: #1c5e8c;
-    border-radius: 20px;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-style: italic;
-    font-size: larger;
-    margin: 5vh 0 5vh 0;
+.soa-articles article {
+  background-color: #1c5e8c;
+  border-radius: 20px;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-style: italic;
+  font-size: larger;
+  margin: 5vh 0 5vh 0;
 }
 
 .soa-articles h3 {
-    margin: 0 5vh 0 5vh;
-    text-align: center;
+  margin: 0 5vh 0 5vh;
+  text-align: center;
 }
 
+.calendario {
+  width: 40vw;
+  height: 35vh;
+  padding: 20px;
+  text-align: center;
+  border-collapse: collapse;
+}
 
+.calendario th {
+  background-color: white;
+  border: none;
+}
+
+.calendario th,
+.calendario td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.calendario td {
+  border: 1px solid #ddd;
+}
+
+.mesSiguiente {
+  color: #ccc;
+}
+
+.actual {
+  background-color: #004080;
+  color: white;
+  font-weight: bold;
+}
