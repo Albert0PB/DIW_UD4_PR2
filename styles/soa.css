@@ -69,7 +69,9 @@
 }
 
 .mesSiguiente {
-  color: #ccc;
+  color: #112A46;
+  background-color: #ACC8E5;
+  font-style: italic; 
 }
 
 .actual {
